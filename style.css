@@ -1,30 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.page-header,
+.page-footer,
+.page-content {
+  width: 100%;
+}
+
+.page-header,
+.page-footer {
+  background: #495867;
+  padding: 10px;
+}
+
+.page-content {
+  background: #BDD5EA;
+}
+
+.page-header__container,
+.page-footer__container,
+.page-content__container {
+  background: none;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.page-content__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-header__title,
+.page-header__subtitle,
+.page-footer__author {
+  color: #FE5F55;
+}
+
+.page-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.page-header__subtitle {
+  font-size: 14px;
+}
+
+.page-footer__author {
+  font-size: 12px;
+}
+
 .klocek-kuby {
   background-color: green;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background: #2b9de9;
-  width: 500px;
-  height: auto;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+.box {
+  background: #577399;
+  color: #DADADA;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
   margin: 15px;
   padding: 15px;
 }
 
-.container__heading {
-  margin: 0;
+.box__heading {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .list {
-
+  margin: 10px;
+  font-size: 16px;
 }
 
 .list__item {
   list-style-type: none;
+  font-size: 14px;
   margin: 5px;
 }
 
