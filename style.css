@@ -82,4 +82,21 @@ body {
 .list__item {
   list-style-type: none;
   font-size: 14px;
+  margin: 5px;
+}
+
+/* Łukasz section */
+.lukasz {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.lukasz__mainheader {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.lukasz__list {
+  color: red;
 }
