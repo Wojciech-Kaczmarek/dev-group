@@ -15,6 +15,19 @@
   padding: 15px;
 }
 
+.container-ted {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #ffbf00;
+  width: 500px;
+  height: auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  margin: 15px;
+  padding: 15px;
+}
+
 .container__heading {
   margin: 0;
 }
