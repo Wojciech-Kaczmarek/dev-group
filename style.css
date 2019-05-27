@@ -109,6 +109,7 @@ body {
     width: 450px;
     border: 20px solid white;
     background-color: darkblue;
+    display: none;
    }
    .skills {
     margin-left: 10mm;
@@ -116,3 +117,12 @@ body {
    .myLi {
        color: white;
    }
+    
+   button {
+     background-color: red;
+     font-size: 22px;
+     margin: 30px;
+     border-width: 12px;
+     width: 200px;
+   }
+
