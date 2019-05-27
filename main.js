@@ -1,10 +1,10 @@
 const div = document.querySelector(".bartek")
 const push = () => {
 
-    if (div.style.display === "none") {
-        div.style.display = "inline"
+    if (div.style.display === "inline") {
+        div.style.display = "none";
 
-    } else { div.style.display = "none" }
+    } else { div.style.display = "inline" }
 
 }
 
