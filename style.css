@@ -100,3 +100,19 @@ body {
 .lukasz__list {
   color: red;
 }
+/* css Bartłomiej Karelus */
+   .bolek {
+       color: hotpink;
+       font-size: 30px;
+   }
+   .bartek {
+    width: 450px;
+    border: 20px solid white;
+    background-color: darkblue;
+   }
+   .skills {
+    margin-left: 10mm;
+   }
+   .myLi {
+       color: white;
+   }
