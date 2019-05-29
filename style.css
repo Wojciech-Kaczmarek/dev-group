@@ -126,3 +126,19 @@ body {
      width: 200px;
    }
 
+   .box-ted {
+    background: #86501e;
+    color: #DADADA;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .list__item-ted {
+    list-style-type: none;
+    font-size: 14px;
+    margin: 5px;
+    font-weight: bold;
+    color: black;
+  }
